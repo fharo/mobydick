@@ -11,7 +11,7 @@ class Registro(models.Model):
     timeslamp = models.DateTimeField(auto_now_add=True, auto_now=False)
 
     def __unicode__(self):
-        return self.email
+        return self.correo
 
     def __str__(self):
-        return self.email
+        return self.correo
